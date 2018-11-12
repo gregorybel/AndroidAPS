@@ -568,7 +568,7 @@
     <string name="bolus_step">Krok bolusa</string>
     <string name="extendedbolus">BolusPrzedłużony</string>
     <string name="temptarget">CelTymczasowy</string>
-    <string name="overview_extendedbolus_cancel_button">Anuluj bolus przedłużony</string>
+    <string name="overview_extendedbolus_cancel_button">Anuluj bolus przedłużony </string>
     <string name="careportal_sensorage_label">Czas sensora</string>
     <string name="careportal_canulaage_label">Czas wkłucia</string>
     <string name="careportal_insulinage_label">Czas insuliny</string>
@@ -630,7 +630,7 @@
     <string name="smb_shortname">SMB</string>
     <string name="enableuam">Włącz UAM</string>
     <string name="enablesmb">Włącz SMB</string>
-    <string name="enablesmb_summary">Używaj SMB (Super Mikro Bolusów) zamiast bazy tymczasowej dla szybszego działania</string>
+    <string name="enablesmb_summary">Używaj SMB (Super Mikro Bolusów) zamiast bazy tymczasowej dla szybszego działania </string>
     <string name="enableuam_summary">Detekcja niezapowiedzianych posiłków (UAM)</string>
     <string name="insulin_oref_peak">IOB Czas piku krzywej działania insuliny</string>
     <string name="insulin_peak_time">Czas piku [min]</string>
