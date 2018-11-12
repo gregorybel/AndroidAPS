@@ -155,7 +155,7 @@
     <string name="bolus">болюс</string>
     <string name="sms_bolus">болюс:</string>
     <string name="basal">базал</string>
-    <string name="sms_basal">базал:</string>
+    <string name="sms_basal">базал: </string>
     <string name="carbs">углеводы</string>
     <string name="changeyourinput">измените введенные данные</string>
     <string name="setextendedbolusquestion">Установить новый удлиненный болюс:</string>
@@ -236,7 +236,7 @@
     <string name="disconnected">Разъединено</string>
     <string name="danar_pump_settings">настройки помпы DanaR</string>
     <string name="end_user_license_agreement">лицензионное соглашение с пользователем</string>
-    <string name="end_user_license_agreement_text">НЕ ДОЛЖНО ИСПОЛЬЗОВАТЬСЯ ДЛЯ ПРИНЯТИЯ МЕДИЦИНСКИХ РЕШЕНИЙ. ПРОГРАММА НЕ ДАЕТ ГАРАНТИЙ В РАМКАХ СУЩЕСТВУЮЩЕГО ЗАКОНОДАТЕЛЬСТВА. ПРЕДОСТАВЛЯЕТСЯ \"КАК ЕСТЬ\" БЕЗ ЯВНЫХ ИЛИ СКРЫТЫХ ГАРАНТИЙ ВКЛЮЧАЯ НО НЕ ОГРАНИЧИВАЯСЬ ВОЗМОЖНОСТЬЮ КОММЕРЧЕСКОГО ИСПОЛЬЗОВАНИ ИЛИ СООТВЕТСТВИЯ КАКИМ-ЛИБО ЦЕЛЯМ. ВСЕ РИСКИ ЛОЖАТСЯ НА ВАС. В СЛУЧАЕ НЕРАБОТОСПОСОБНОСТИ ПРОГРАММЫ ВЫ НЕСЕТЕ ВСЕ РАСХОДЫ СВЯЗАННЫЕ С ОБСЛУЖИВАНИЕМ РЕМОНТОМ ИЛИ КОРРЕКТИРОВКОЙ.</string>
+    <string name="end_user_license_agreement_text">НЕ ДОЛЖНО ИСПОЛЬЗОВАТЬСЯ ДЛЯ ПРИНЯТИЯ МЕДИЦИНСКИХ РЕШЕНИЙ. ПРОГРАММА НЕ ДАЕТ ГАРАНТИЙ В РАМКАХ СУЩЕСТВУЮЩЕГО ЗАКОНОДАТЕЛЬСТВА. ПРЕДОСТАВЛЯЕТСЯ \"КАК ЕСТЬ\" БЕЗ ЯВНЫХ ИЛИ СКРЫТЫХ ГАРАНТИЙ ВКЛЮЧАЯ НО НЕ ОГРАНИЧИВАЯСЬ ВОЗМОЖНОСТЬЮ КОММЕРЧЕСКОГО ИСПОЛЬЗОВАНИ ИЛИ СООТВЕТСТВИЯ КАКИМ-ЛИБО ЦЕЛЯМ. ВСЕ РИСКИ ЛОЖАТСЯ НА ВАС. В СЛУЧАЕ НЕРАБОТОСПОСОБНОСТИ ПРОГРАММЫ ВЫ НЕСЕТЕ ВСЕ РАСХОДЫ СВЯЗАННЫЕ С ОБСЛУЖИВАНИЕМ РЕМОНТОМ ИЛИ КОРРЕКТИРОВКОЙ.  </string>
     <string name="end_user_license_agreement_i_understand">я понимаю и принимаю</string>
     <string name="save">сохранить</string>
     <string name="nobtadapter">адаптер блутус не найден</string>
