@@ -6,7 +6,7 @@
     <string name="treatmentssafety_maxcarbs_title">Maximum de Glucides autorisé [g]</string>
     <string name="nav_preferences">Préférences</string>
     <string name="nav_refreshtreatments">Actualiser les données depuis NS</string>
-    <string name="nav_resetdb">Réinitialiser les Bases de Données</string>
+    <string name="nav_resetdb">Réinitialiser les Bases de Données </string>
     <string name="reset_db_confirm">Voulez-vous vraiment réinitialiser les bases de données ?</string>
     <string name="nav_exit">Quitter</string>
     <string name="danar_useextended_title">Utiliser les bolus étendus pour &gt; 200%</string>
@@ -63,7 +63,7 @@
     <string name="noprofileset">PAS DE PROFIL PRÉDÉFINI</string>
     <string name="treatments_insulin_label_string">Insuline:</string>
     <string name="treatments_carbs_label_string">Glucides :</string>
-    <string name="treatments_iob_label_string">IA:</string>
+    <string name="treatments_iob_label_string">IA: </string>
     <string name="sms_iob">IA:</string>
     <string name="treatments_activity_string">Activité :</string>
     <string name="treatments_iobtotal_label_string">IA Totale:</string>
@@ -276,7 +276,7 @@ L\'ENSEMBLE DES RISQUES LIÉS À LA QUALITÉ ET À LA PERFORMANCE DU PROGRAMME S
     <string name="careportal_temporarytarget">Cible temporaire</string>
     <string name="careportal_temporarytargetcancel">Annulation Cible Temporaire</string>
     <string name="danarprofile">Paramètres du profil DanaR</string>
-    <string name="danarprofile_dia">Durée d\'Action [h]</string>
+    <string name="danarprofile_dia">Durée d\'Action [h] </string>
     <string name="danarprofile_dia_summary">Durée d\'Action de l\'Insuline</string>
     <string name="failedupdatebasalprofile">La mise à jour du profil basal a échouée</string>
     <string name="danar_historyreload">Actualiser</string>
@@ -319,7 +319,7 @@ L\'ENSEMBLE DES RISQUES LIÉS À LA QUALITÉ ET À LA PERFORMANCE DU PROGRAMME S
     <string name="objectives_1_objective">Commencez par la configuration Boucle Ouverte</string>
     <string name="objectives_1_gate">Utiliser le système Boucle Ouverte pour quelques jours, et activer manuellement de nombreux débits de basal temporaires. Définir et utiliser des objectifs temporaires (ex : activités ou utilisation de glucides pour traiter des hypos)</string>
     <string name="objectives_2_objective">Comprendre votre système Boucle Ouverte, y compris ses recommandations de débit de Basal temporaire</string>
-    <string name="objectives_2_gate">Partant de ce constat, décidez quel est le débit de base maximum à choisir, et entrez le dans la pompe et les préférences</string>
+    <string name="objectives_2_gate">Partant de ce constat, décidez quel est le débit de base maximum à choisir, et entrez le dans la pompe et les préférences </string>
     <string name="objectives_3_objective">Commencez par utiliser la Boucle Fermée avec le système Arrêt Glycémie Basse</string>
     <string name="objectives_3_gate">Utiliser la Boucle Fermée avec max IA = 0 pour quelques jours sans avoir trop d’événements AGB Arrêt Glycémie Basse (LGS Low Glucose Suspend)</string>
     <string name="objectives_4_objective">Ajustez votre système Boucle Fermée, augmentez la fonction « max IOB » au delà de 0 et diminuez progressivement vos cibles glycémiques</string>
@@ -513,7 +513,7 @@ L\'ENSEMBLE DES RISQUES LIÉS À LA QUALITÉ ET À LA PERFORMANCE DU PROGRAMME S
     <string name="nosuccess">Sans succès - vérifiez votre téléphone</string>
     <string name="notavailable">Non disponible</string>
     <string name="patientage">Age du patient</string>
-    <string name="child">Enfant</string>
+    <string name="child"> Enfant</string>
     <string name="teenage">Adolescent</string>
     <string name="adult">Adulte</string>
     <string name="resistantadult">Adulte résistant à l\'insuline</string>
@@ -597,7 +597,7 @@ L\'ENSEMBLE DES RISQUES LIÉS À LA QUALITÉ ET À LA PERFORMANCE DU PROGRAMME S
     <string name="sensitivity_shortname">SENS</string>
     <string name="sensitivityoref0">Sensibilité Oref0</string>
     <string name="sensitivityoref1">Sensibilité Oref1</string>
-    <string name="sensitivityaaps">Sensibilité AAPS</string>
+    <string name="sensitivityaaps">Sensibilité AAPS </string>
     <string name="absorptionsettings_title">Paramètres d’absorption</string>
     <string name="absorption_maxtime_title">Durée maximale d’absorption pour un repas</string>
     <string name="absorption_maxtime_summary">Le temps estimé en heures pour une absorbption totale des glucides d’un repas</string>
@@ -624,7 +624,7 @@ L\'ENSEMBLE DES RISQUES LIÉS À LA QUALITÉ ET À LA PERFORMANCE DU PROGRAMME S
     <string name="careportal_carbsandbolus_label">GLUCIDES et BOLUS</string>
     <string name="careportal_cgm_label">MCG et OPENAPS</string>
     <string name="careportal_pump_label">POMPE</string>
-    <string name="overview_newtempbasal_basalabsolute">Valeur Basal [U/h]</string>
+    <string name="overview_newtempbasal_basalabsolute">Valeur Basal [U/h] </string>
     <string name="careportal_newnstreatment_duration_min_label">Durée [min]</string>
     <string name="openapssmb">OpenAPS SMB</string>
     <string name="smb_shortname">SMB</string>
@@ -635,11 +635,11 @@ L\'ENSEMBLE DES RISQUES LIÉS À LA QUALITÉ ET À LA PERFORMANCE DU PROGRAMME S
     <string name="insulin_oref_peak">Durée du Pic de la Courbe IA</string>
     <string name="insulin_peak_time">Temps du Pic [min]</string>
     <string name="free_peak_oref">Profil d\'insuline ajustable Oref</string>
-    <string name="rapid_acting_oref">Insuline à Action Rapide Oref</string>
+    <string name="rapid_acting_oref">Insuline à Action Rapide Oref </string>
     <string name="ultrarapid_oref">Insuline à Action Ultra Rapide Oref</string>
     <string name="dia_too_short">Durée d’Action pour %1$f trop courte - utiliser %2$f à la place !</string>
     <string name="activate_profile">Activer le profil</string>
-    <string name="date">Date</string>
+    <string name="date"> Date</string>
     <string name="invalid">INVALIDE</string>
     <string name="waitingforpairing">Attente de l\'appairage de la pompe</string>
     <string name="pairingok">Appairage OK</string>
@@ -709,7 +709,7 @@ L\'ENSEMBLE DES RISQUES LIÉS À LA QUALITÉ ET À LA PERFORMANCE DU PROGRAMME S
     <string name="wear_detailed_delta_title">Afficher le delta détaillé</string>
     <string name="wear_detailed_delta_summary">Afficher delta avec une décimale supplémentaire</string>
     <string name="smbmaxminutes_summary">Max. minutes de basal pour limiter le SMB</string>
-    <string name="unsupportedfirmware">Firmware pompe incompatible</string>
+    <string name="unsupportedfirmware">Firmware pompe incompatible </string>
     <string name="dexcomg5_xdripupload_title">Transmettre les données G vers xDrip+</string>
     <string name="dexcomg5_xdripupload_summary">Dans xDrip+ veuillez séléctionner 640g/Eversense comme source de données</string>
     <string name="nsclientbg">Glycémie NSClient</string>
@@ -745,7 +745,7 @@ L\'ENSEMBLE DES RISQUES LIÉS À LA QUALITÉ ET À LA PERFORMANCE DU PROGRAMME S
     <string name="combo_pump_state_suspended_by_user">Arrêté par l\'utilisateur</string>
     <string name="combo_pump_state_running">En cours d\'exécution</string>
     <string name="combo_pump_action_cancelling_tbr">Annulation en cours du TBR</string>
-    <string name="combo_pump_action_setting_tbr">Paramétrer TBR (%1$d%% / %2$d min)</string>
+    <string name="combo_pump_action_setting_tbr">Paramétrer TBR (%1$d%% / %2$d min) </string>
     <string name="combo_pump_action_bolusing">Injection du bolus en cours (%.1f U)</string>
     <string name="combo_pump_action_refreshing">Actualisation en cours</string>
     <string name="combo_pump_unsupported_operation">L\'opération demandée n\'est pas prise en charge par la pompe</string>
