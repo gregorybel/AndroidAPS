@@ -3,4 +3,9 @@
 <resources>
     <string name="alert_w32">Uyarı W32: Pil bitmek üzere</string>
     <string name="alert_w33">Uyarı W33: Geçersiz saat/tarih</string>
+    <string name="alert_w38">Uyarı W38: Bolus iptal edildi</string>
+    <string name="alert_w39">Uyarı W39: Kiralama süresi uyarısı</string>
+    <string name="alert_m20">Bakım M20: Kartuş takılı değil</string>
+    <string name="alert_m21">Bakım M21: Kartuş boş</string>
+    <string name="alert_m22">Bakım M22: Pil boş</string>
 </resources>
