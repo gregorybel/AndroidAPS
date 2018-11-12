@@ -734,7 +734,7 @@ Stel in en gebruik tijdelijk en standaard tijdelijke streefdoelen (bv. bij sport
     <string name="hasbgdata">BG beschikbaar op gekozen bron</string>
     <string name="basalprofilenotaligned" formatted="false">Basale patroon niet geschikt op complete uren: %s</string>
     <string name="zerovalueinprofile" formatted="false">Ongeldig profiel: %s</string>
-    <string name="combo_programming_bolus">Bolus in pomp programmeren</string>
+    <string name="combo_programming_bolus">Bolus in pomp programmeren </string>
     <string name="combo_refresh">Vernieuw</string>
     <string name="combo_pump_state_label">Status</string>
     <string name="combo_pump_activity_label">Activiteit</string>
