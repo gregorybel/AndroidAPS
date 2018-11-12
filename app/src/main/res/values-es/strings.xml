@@ -823,7 +823,7 @@
     <string name="overview_buttons_selection">Botones</string>
     <string name="show_calibration_button_summary">Envía una calibración a xDrip+ o abre el diálogo de calibración G5</string>
     <string name="show_cgm_button_summary">Abre xDrip+, el botón atrás regresará a AAPS</string>
-    <string name="carb_increment_button_message">Cantidad de Carbohidratos que se agregan cuando se presiona el botón</string>
+    <string name="carb_increment_button_message">Cantidad de Carbohidratos que se agregan cuando se presiona el botón </string>
     <string name="insulin_increment_button_message">Cantidad de insulina que se agrega cuando se presiona el botón</string>
     <string name="error_starting_cgm">No se pudo iniciar la aplicación CGM. Asegúrate de que está instalada.</string>
     <string name="overview_cgm">CGM</string>
@@ -915,7 +915,7 @@
     <string name="pump_started">Bomba iniciada</string>
     <string name="pump_paused">Bomba pausada</string>
     <string name="absorption_cutoff_title">Tiempo máximo de absorción de la comida [h]</string>
-    <string name="absorption_cutoff_summary">Tiempo en el que cualquier comida se considera absorbida. Los carbohidratos restantes serán cortados.</string>
+    <string name="absorption_cutoff_summary">Tiempo en el que cualquier comida se considera absorbida. Los carbohidratos restantes serán cortados. </string>
     <string name="time">Tiempo</string>
     <string name="overview_show_notes_field_in_dialogs_title">Mostrar el campo notas en diálogos de tratamientos</string>
     <string name="next_button">Siguiente</string>
