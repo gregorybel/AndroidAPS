@@ -243,7 +243,7 @@
     <string name="devicenotfound">Δεν βρέθηκε η επιλεγμένη συσκευή</string>
     <string name="connectionerror">Λάθος σύνδεσης αντλίας</string>
     <string name="danar_iob_label">IOB αντλίας</string>
-    <string name="danar_dailyunits">Μονάδες ανά ημέρα</string>
+    <string name="danar_dailyunits">Μονάδες ανά ημέρα </string>
     <string name="pump_lastbolus_label">Τελευταίο Bolus:</string>
     <string name="hoursago">πριν από %.1fh</string>
     <string name="danar_invalidinput">Μη έγκυρα δεδομένα</string>
@@ -319,7 +319,7 @@
     <string name="objectives_1_gate">Εκτελέστε σε ανοιχτό κύκλωμα για μερικές ημέρες και χειροκίνητα κάντε πολλές παρεμβάσεις με προσωρινό ρυθμό. Ρυθμίστε και χρησιμοποιήστε προσωρινούς στόχους (π.χ. για αθλήματα ή υπογλυκαιμία)</string>
     <string name="objectives_2_objective">Κατανοήστε το ανοιχτό κύκλωμα, περιλαμβάνοντας τις προτάσεις για Προσωρινό ρυθμό</string>
     <string name="objectives_2_gate">Βάση της εμπειρίας σας, αποφασίστε ποιο είναι το μέγιστο βασικής δόσης και αποθηκεύστε το στην αντλία και στις Επιλογές</string>
-    <string name="objectives_3_objective">Ξεκινήστε να κλείσετε το κύκλωμα με Σταμάτημα Χαμηλής Γλυκόζης (Low Glucose Suspend)</string>
+    <string name="objectives_3_objective">Ξεκινήστε να κλείσετε το κύκλωμα με Σταμάτημα Χαμηλής Γλυκόζης (Low Glucose Suspend) </string>
     <string name="objectives_3_gate">Εκτελέστε σε κλειστό κύκλωμα με μέγιστο IOB = 0 για μερικές ημέρες χωρίς πολλά LGS - υπογλυκαιμίες</string>
     <string name="objectives_4_objective">Ρυθμίζοντας το κλειστό κύκλωμα, αυξήστε το μέγιστο IOB πάνω από 0 και σταδιακά μειώστε τους στόχους BG</string>
     <string name="objectives_4_gate">Τρέξτε το για λίγες ημέρες, και τουλάχιστον μία νύχτα χωρίς χαμηλό συναγερμό BG, πριν χαμηλώσετε τα όρια</string>
@@ -336,7 +336,7 @@
     <string name="smscommunicator_loopisenabled">Κύκλωμα ενεργοποιημένο</string>
     <string name="valuelimitedto">Το %1$.2f περιορίζεται σε %2$.2f</string>
     <string name="valueoutofrange" formatted="false">Η τιμή %s είναι έξω από τα όρια</string>
-    <string name="smscommunicator_remotebasalnotallowed">Δεν επιτρέπεται η απομακρυσμένη ρύθμιση βασικού ρυθμού</string>
+    <string name="smscommunicator_remotebasalnotallowed">Δεν επιτρέπεται η απομακρυσμένη ρύθμιση βασικού ρυθμού </string>
     <string name="smscommunicator_remotecommandnotallowed">Δεν επιτρέπεται απομακρυσμένη εντολή</string>
     <string name="smscommunicator_basalreplywithcode">Για έναρξη βασικού %1$.2fU/h στείλτε με κωδικό %2$s</string>
     <string name="smscommunicator_suspendreplywithcode">Για αναστολή κυκλκώματος για %1$d λεπτών στείλτε με κωδικό %2$s</string>
@@ -461,7 +461,7 @@
     <string name="openapsama_min_5m_carbimpact_summary">Προεπιλεγμένη τιμή: 3.0 (AMA) ή 8.0 (SMB). Αυτό είναι μια ρύθμιση για την επίπτωση της προεπιλεγμένης απορρόφησης υδατανθράκων ανά 5 λεπτά. Η προεπιλογή είναι μια αναμενόμενη 3mg/dl/5min. Αυτό επηρεάζει το πόσο γρήγορα το COB ελλατώνεται, και πόση απορρόφηση υδατανθράκων θα υποθέτει για τον υπολογισμό της μελλοντικής πρόβλεψης BG, όταν το BG πέφτει περισσότερο από το αναμενόμενο ή δεν αυξάνεται όσο το αναμενόμενο.</string>
     <string name="openapsama_link_to_preferncejson_doc_txt">Προσοχή!\nΣυνήθως δεν χρειάζεται να αλλάξετε αυτές τις τιμές. Κάντε κλικ ΕΔΩ, ΔΙΑΒΑΣΤΕ τις πληροφορίες και σιγουρευτείτε ότι τις καταλαβαίνετε πριν τις αλλάξετε.</string>
     <string name="error_only_numeric_digits_allowed">Μόνο αριθμητικά ψηφία επιτρέπονται.</string>
-    <string name="error_only_numeric_digits_range_allowed">Μόνο αριθμητικά ψηφία μέσα στο εύρος %1$s - %2$s επιτρέπονται.</string>
+    <string name="error_only_numeric_digits_range_allowed">Μόνο αριθμητικά ψηφία μέσα στο εύρος %1$s - %2$s επιτρέπονται. </string>
     <string name="error_field_must_not_be_empty">Το πεδίο αυτό δεν πρέπει να είναι κενό</string>
     <string name="error_phone_not_valid">Μη έγκυρος αριθμός τηλεφώνου</string>
     <string name="smscommunicator_invalidphonennumber">Μη έγκυρος αριθμός τηλεφώνου για SMS</string>
@@ -586,7 +586,7 @@
     <string name="nsalarm_urgentstaledata">Επείγον παλιά δεδομένα</string>
     <string name="nsalarm_staledatavalue_label">Οριακή τιμή για παλιά δεδομένα [min]</string>
     <string name="nsalarm_urgent_staledatavalue_label">Επείγουσα οριακή τιμή για παλιά δεδομένα [min]</string>
-    <string name="openapsama_autosens_period">Εσωτερικά διαστήματα για autosense [h]</string>
+    <string name="openapsama_autosens_period">Εσωτερικά διαστήματα για autosense [h] </string>
     <string name="openapsama_autosens_period_summary">Ποσότητα ωρών κατά το παρελθόν για ανίχνευση ευαισθησίας (εξαιρείται ο χρόνος απορρόφησης υδατανθράκων)</string>
     <string name="pump">Αντλία</string>
     <string name="openaps">OpenAPS</string>
@@ -623,7 +623,7 @@
     <string name="careportal_carbsandbolus_label">ΥΔΑΤΑΝΘΡΑΚΕΣ &amp; BOLUS</string>
     <string name="careportal_cgm_label">CGM &amp; OPENAPS</string>
     <string name="careportal_pump_label">ΑΝΤΛΙΑ</string>
-    <string name="overview_newtempbasal_basalabsolute">Τιμή Βασικού ρυθμού [U/h]</string>
+    <string name="overview_newtempbasal_basalabsolute">Τιμή Βασικού ρυθμού [U/h] </string>
     <string name="careportal_newnstreatment_duration_min_label">Διάρκεια [min]</string>
     <string name="openapssmb">OpenAPS SMB</string>
     <string name="smb_shortname">SMB</string>
@@ -636,7 +636,7 @@
     <string name="free_peak_oref">Προαιρετικά-αιχμή Oref</string>
     <string name="rapid_acting_oref">Γρήγορη δράση - Oref</string>
     <string name="ultrarapid_oref">Έξτρα Γρήγορη δράση - Oref</string>
-    <string name="dia_too_short">DIA για %1$f πολύ μικρή - χρησιμοποιήστε %2$f!</string>
+    <string name="dia_too_short">DIA για %1$f πολύ μικρή - χρησιμοποιήστε %2$f! </string>
     <string name="activate_profile">Ενεργοποίηση προφίλ</string>
     <string name="date">Ημερομηνία</string>
     <string name="invalid">ΜΗ ΕΓΚΥΡΟ</string>
