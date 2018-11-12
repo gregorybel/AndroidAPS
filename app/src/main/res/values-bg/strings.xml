@@ -219,14 +219,14 @@
     <string name="configbuilder_nightscoutversion_label">Nightscout версия:</string>
     <string name="missing">Липсва</string>
     <string name="exported">Настройките са експортирани</string>
-    <string name="export_to">Експортирай настройките в</string>
+    <string name="export_to">Експортирай настройките в </string>
     <string name="import_from">Импорт на настройки от</string>
     <string name="setting_imported">Настройките са импортирани</string>
     <string name="filenotfound">Файлът не е намерен</string>
     <string name="nav_export">Експорт настройки</string>
     <string name="nav_import">Импорт настройки</string>
     <string name="openapsma_maxbasal_title">Максимално позволен временен базал Е/ч</string>
-    <string name="openapsma_maxbasal_summary">Макс. лимит на временен базал [Е/ч]</string>
+    <string name="openapsma_maxbasal_summary">Макс. лимит на временен базал [Е/ч] </string>
     <string name="openapsma_maxiob_title">Максимален IOB</string>
     <string name="openapsma_maxiob_summary">Този параметър се нарича максимален IOB в OpenAPS и подразбиране е 0. След няколко дни или седмици можете да го увеличите.</string>
     <string name="dismiss">Разбрах</string>
@@ -377,7 +377,7 @@
     <string name="prefs_range_title">Диапазон за визуализация</string>
     <string name="prefs_range_summary">Стойност на линиите за ниска и висока КЗ (mmol/l)  за телефона и часовника</string>
     <string name="low_mark">Ниска КЗ под</string>
-    <string name="high_mark">Висока КЗ над</string>
+    <string name="high_mark">Висока КЗ над </string>
     <string name="wear">Часовник</string>
     <string name="resend_all_data">Изпрати отново всички дани</string>
     <string name="open_settings_on_wear">Отвори настройките на часовника</string>
@@ -815,15 +815,15 @@
     <string name="automatically_connect_when">Автоматично свързване при отваряне на AndroidAPS, преди връзка с помпата за намаляване на първоначалното забавяне</string>
     <string name="not_recommended_due_to_battery_drain">Не се препоръчва поради голяма консумация на батерия</string>
     <string name="enablesmbalways">Разреши SMB постоянно</string>
-    <string name="enablesmbalways_summary">Разрешава SMB постоянно и независимо от болусите. Възможно само с източник на КЗ с добра филтрация като G5</string>
+    <string name="enablesmbalways_summary">Разрешава SMB постоянно и независимо от болусите. Възможно само с източник на КЗ с добра филтрация като G5  </string>
     <string name="enablesmbaftercarbs">Разреши SMB след въглехидрати</string>
-    <string name="enablesmbaftercarbs_summary">Разрешава SMB 6 часа след въглехидрати, дори при COB=0. Възможно само с източник на КЗ с добра филтрация като G5 приложение</string>
+    <string name="enablesmbaftercarbs_summary">Разрешава SMB 6 часа след въглехидрати, дори при COB=0. Възможно само с източник на КЗ с добра филтрация като G5 приложение </string>
     <string name="enablesmbwithcob">Разреши SMB с COB (въглехидрати)</string>
     <string name="enablesmbwithcob_summary">Разрешава SMB, когато има активни COB</string>
     <string name="enablesmbwithtemptarget">Разреши SMB с временни цели</string>
     <string name="enablesmbwithtemptarget_summary">Разрешава SMB, когато има активна временна цел на КЗ</string>
     <string name="enablesmbwithhightemptarget">Разреши SMB с по-високи временни цели на КЗ</string>
-    <string name="enablesmbwithhightemptarget_summary">Разрешава SMB когато има активна по-висока временна цел</string>
+    <string name="enablesmbwithhightemptarget_summary">Разрешава SMB когато има активна по-висока временна цел </string>
     <string name="let_temp_basal_run">Нека текущия временен базал продължи</string>
     <string name="mute">Заглушаване</string>
     <string name="overview_insulin_label">Инсулин</string>
@@ -875,7 +875,7 @@
     <string name="combo_error_failure_reading_changed_basal_rate">Базалният процент е променен в помпата, но прочитането е неуспешно</string>
     <string name="combo_activity_checking_for_history_changes">Проверка за промени в историята на помпата</string>
     <string name="combo_error_multiple_boluses_with_identical_timestamp">Бяха внесени няколко болуса със същото количество в рамките на една и съща минута. Само един запис може да бъде добавен към лечението. Моля, проверете помпата и ръчно добавете болус запис, като използвате раздела Careportal . Уверете се, че сте създали болус и нямате друг болус за същото време.</string>
-    <string name="about_link_urls">http://www.androidaps.org  facebook: http://facebook.androidaps.org</string>
+    <string name="about_link_urls"> http://www.androidaps.org  facebook: http://facebook.androidaps.org</string>
     <string name="combo_check_date">Последният болус е с време от преди 24 часа или е в бъдеще. Моля, проверете дали датата на помпата е зададена правилно.</string>
     <string name="combo_suspious_bolus_time">Времето/датата на доставения болус на помпата изглежда погрешно, IOB вероятно е неправилно. Моля, проверете часа/датата на помпата.</string>
     <string name="profileswitch_ismissing">Смяната на профила не е отразена. Моля, направете превключване на потребителския профил или натиснете \"Активирай профил\" в Локален профил.</string>
@@ -889,7 +889,7 @@
     <string name="autosensdisabledinpreferences">Аутосенс е забранен в настройките</string>
     <string name="smbdisabledinpreferences">SMB е забранен в настройките</string>
     <string name="uamdisabledinpreferences">UAM е забранен в настройките</string>
-    <string name="uamdisabledoref1notselected">UAM изключен, защото му трябва Oref1 плъгин за чувствителност</string>
+    <string name="uamdisabledoref1notselected">UAM изключен, защото му трябва Oref1 плъгин за чувствителност </string>
     <string name="limitingbasalratio">Ограничаване на макс. базална стойност до %1$.2f Е/ч поради %2$s</string>
     <string name="pumplimit">лимит на помпата</string>
     <string name="itmustbepositivevalue">трябва да бъде положително число</string>
@@ -1019,7 +1019,7 @@
     <string name="custom">По избор</string>
     <string name="largetimedifftitle">Голяма времева разлика</string>
     <string name="largetimediff">Голяма времева разлика: Помпата е изключена за повече от 1,5 часа. Моля, регулирайте ръчно времето на помпата и се уверете, че четенето на историята от помпата не води до неочаквано поведение. Ако е възможно, премахнете историята от помпата, преди да промените времето или да изключите затворения кръг за едно DIA след последното погрешно влизане в историята, но поне едно DIA отсега.</string>
-    <string name="careportal_removestartedevents">AndroidAPS стартира</string>
+    <string name="careportal_removestartedevents"> AndroidAPS стартира</string>
     <string name="storedsettingsfound">Открити са предишни настройки</string>
     <string name="allow_hardware_pump_text">Внимание: Ако активирате и свържете с хардуерна помпа, AndroidAPS ще копира основните настройки от профила в помпата, като презапише съществуващата базова скорост, съхранявана на помпата. Уверете се, че имате правилните основни настройки в AndroidAPS. Ако не сте сигурни или не искате да презапишете основните настройки на помпата, натиснете Cancel и повторете превключването към помпата по-късно.</string>
     <string name="error_adding_treatment_title">Данните за лечението не са пълни</string>
@@ -1039,7 +1039,7 @@
     <string name="resettodefaults">Възстанови настройките по подразбиране</string>
     <string name="nsmalfunction">Грешка в NSClient. Рестартирайте Nightscout и NSClient</string>
     <string name="as">АS</string>
-    <string name="versionavailable">Има налично обновяване до версия %1$s</string>
+    <string name="versionavailable">Има налично обновяване до версия %1$s </string>
     <string name="time_offset">времево отместване</string>
     <string name="setupwizard_preferred_aps_mode">Предпочитаният режим на APS</string>
     <string name="treatments_wizard_total_label">Общо</string>
@@ -1052,7 +1052,7 @@
     <string name="insulinlimitviolation">Нарушение на макс дневен инсулин</string>
     <string name="loop_openmode_min_change">Минимална стойност за промяна [%]</string>
     <string name="loop_openmode_min_change_summary">AndroidAPS ще покаже запитването за промяна на базала само ако е по-голямо от тази стойност.(Стандартно 20%)</string>
-    <string name="pairfirst">Моля първо свържете помпата с телефона от Bluetooth настройките</string>
+    <string name="pairfirst">Моля първо свържете помпата с телефона от Bluetooth настройките </string>
     <plurals name="objective_days">
         <item quantity="one">%1$d дeн</item>
         <item quantity="other">%1$d дни</item>
