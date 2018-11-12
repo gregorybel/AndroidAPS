@@ -647,7 +647,7 @@
     <string name="danars_nodeviceavailable">Ingen enhet funnen ännu</string>
     <string name="emptyreservoir">Tom reservoar</string>
     <string name="bloodsugarmeasurementalert">Varning om blodsockermätning</string>
-    <string name="remaininsulinalert">Återstående mängd insulin</string>
+    <string name="remaininsulinalert">Återstående mängd insulin </string>
     <string name="danarspump">Dana RS</string>
     <string name="danarspump_shortname">Dana</string>
     <string name="selectedpump">Vald pump</string>
@@ -969,7 +969,7 @@
     <string name="setupwizard_loop_description">Tryck på knappen nedan för att låta AndroidAPS föreslå/göra basalförändringar</string>
     <string name="setupwizard_objectives_description">Tryck på knappen nedan för att aktivera Mål. Titta på fliken Mål efter att du slutfört den här guiden för att göra AndroidAPS helt funktionell. \n</string>
     <string name="enableobjectives">Aktivera mål</string>
-    <string name="apssetup">Konfigurera APS-insticksprogram</string>
+    <string name="apssetup">Konfigurera APS-insticksprogram </string>
     <string name="sensitivitysetup">Konfigurera insticksprogram för känslighet</string>
     <string name="setupwizard_sensitivity_description">Insticksprogrammet för känslighet används för att detektera insulinkänslighet och för att beräkning av aktiva kolhydrater, COB. För mer information, besök:</string>
     <string name="setupwizard_sensitivity_url">https://github.com/MilosKozak/AndroidAPS/wiki/Sensitivity-detection-and-COB</string>
