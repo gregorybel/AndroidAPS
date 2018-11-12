@@ -341,7 +341,7 @@
     <string name="smscommunicator_basalreplywithcode">Para começar basal %1$.2fU/h responda com código %2$s</string>
     <string name="smscommunicator_suspendreplywithcode">Para suspender o loop por %1$d minutos resposta com código %2$s</string>
     <string name="smscommunicator_tempbasalset">Basal temporária %1$.2fU/h para %2$d min iniciada com êxito</string>
-    <string name="smscommunicator_tempbasalfailed">Início basal temp falhou</string>
+    <string name="smscommunicator_tempbasalfailed">Início basal temp falhou </string>
     <string name="smscommunicator_basalstopreplywithcode" formatted="false">Para parar a basal temporaria responda com o código %s</string>
     <string name="smscommunicator_tempbasalcanceled">Basal temp cancelada</string>
     <string name="smscommunicator_tempbasalcancelfailed">Não foi possivel cancelar a basal temp</string>
