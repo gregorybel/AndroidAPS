@@ -12,7 +12,7 @@
     <string name="danar_useextended_title">Usa esteso sup. 200%</string>
     <string name="danar_bt_name_title">Dispositivo Bluetooh DanaR</string>
     <string name="ns_sync_use_absolute_title">Utilizzare sempre valori assoluti basali</string>
-    <string name="alert_dialog_storage_permission_text">per favore riavvia il tuo telefonoo riavvia AndroidAPS dalle Impostazioni di Sistema o Android APS non lo registrera\'</string>
+    <string name="alert_dialog_storage_permission_text">per favore riavvia il tuo telefonoo riavvia AndroidAPS dalle Impostazioni di Sistema o Android APS non lo registrera\' </string>
     <string name="description_actions">Alcuni pulsanti per accedere rapidamente alle funzioni comuni</string>
     <string name="description_careportal">Immettere i dati del registro avanzato.</string>
     <string name="description_config_builder">Utilizzato per configurare il plugin attivi</string>
@@ -46,7 +46,7 @@
     <string name="description_source_dexcom_g5">Ricevi i valori BG dall\'app Dexcom G5 con patch.</string>
     <string name="description_source_glimp">Ricevi valori Bg da Glimp.</string>
     <string name="description_source_mm640g">Ricevi valori BG da 600SeriesAndroidUploader.</string>
-    <string name="description_source_ns_client">Scarica i valori BG da Nightscout</string>
+    <string name="description_source_ns_client">Scarica i valori BG da Nightscout </string>
     <string name="description_source_xdrip">Ricevi i dati Bg da xDrip</string>
     <string name="description_treatments">Salva tutti i trattamenti</string>
     <string name="description_wear">Monitorare e controllare AndroidAPS usando il tuo orologio WearOS.</string>
