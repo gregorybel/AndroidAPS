@@ -475,7 +475,9 @@ public class OverviewFragment extends Fragment implements View.OnClickListener, 
                     menu.add(MainApp.gs(R.string.suspendloopfor3h));
                     menu.add(MainApp.gs(R.string.suspendloopfor10h));
                 }  else  {
-                    menu.add(MainApp.gs(R.string.resume));
+                    if (!loopPlugin.isDisconnected()) {
+                        menu.add(MainApp.gs(R.string.resume));
+                    }
                 }
             }
 
@@ -1126,10 +1128,7 @@ public class OverviewFragment extends Fragment implements View.OnClickListener, 
                 apsModeView.setBackgroundColor(MainApp.gc(R.color.ribbonWarning));
                 apsModeView.setText(String.format(MainApp.gs(R.string.loopsuperbolusfor), loopPlugin.minutesToEndOfSuspend()));
                 apsModeView.setTextColor(MainApp.gc(R.color.ribbonTextWarning));
-            } else  if (loopPlugin.isDisconnected()) {
-                apsModeView.setBackgroundColor(MainApp.gc(R.color.ribbonWarning));
-                apsModeView.setTextColor(MainApp.gc(R.color.ribbonTextWarning));
-            } else if (loopPlugin.isEnabled(PluginType.LOOP) && loopPlugin.isDisconnected()) {
+            } else if (loopPlugin.isDisconnected()) {
                 apsModeView.setBackgroundColor(MainApp.gc(R.color.ribbonCritical));
                 apsModeView.setText(String.format(MainApp.gs(R.string.loopdisconnectedfor), loopPlugin.minutesToEndOfSuspend()));
                 apsModeView.setTextColor(MainApp.gc(R.color.ribbonTextCritical));
@@ -1235,7 +1234,7 @@ public class OverviewFragment extends Fragment implements View.OnClickListener, 
         if (activeTemp != null) {
             baseBasalView.setTextColor(MainApp.gc(R.color.basal));
         } else {
-            baseBasalView.setTextColor(MainApp.gc(R.color.ribbonTextWarning));
+            baseBasalView.setTextColor(Color.WHITE);
 
         }
 
