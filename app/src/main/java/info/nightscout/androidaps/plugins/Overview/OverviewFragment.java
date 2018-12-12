@@ -1380,8 +1380,8 @@ public class OverviewFragment extends Fragment implements View.OnClickListener, 
                 NSSettingsStatus nsSettings = new NSSettingsStatus().getInstance();
                 double iageUrgent = nsSettings.getExtendedWarnValue("iage", "urgent", 96);
                 double iageWarn = nsSettings.getExtendedWarnValue("iage", "warn", 72);
-                double cageUrgent = nsSettings.getExtendedWarnValue("cage", "urgent", 72);
-                double cageWarn = nsSettings.getExtendedWarnValue("cage", "warn", 48);
+                double cageUrgent = nsSettings.getExtendedWarnValue("cage", "urgent", 48);
+                double cageWarn = nsSettings.getExtendedWarnValue("cage", "warn", 24);
                 double sageUrgent = nsSettings.getExtendedWarnValue("sage", "urgent", 166);
                 double sageWarn = nsSettings.getExtendedWarnValue("sage", "warn", 164);
                 //double pbageUrgent = nsSettings.getExtendedWarnValue("pgage", "urgent", 360);
@@ -1415,8 +1415,10 @@ public class OverviewFragment extends Fragment implements View.OnClickListener, 
                 }
 
                 if (batteryView != null) {
-                    double batteryLevel = pump.isInitialized() ? pump.getBatteryLevel() : -1;
-                    applyStatuslight(batteryView, "BAT", batteryLevel, batWarn, batUrgent, -1, false);
+                    //double batteryLevel = pump.isInitialized() ? pump.getBatteryLevel() : -1;
+                    careportalEvent = MainApp.getDbHelper().getLastCareportalEvent(CareportalEvent.PUMPBATTERYCHANGE);
+                    double batteryLevel = careportalEvent != null ? careportalEvent.getHoursFromStart()/24.0 : Double.MAX_VALUE;
+                    applyStatuslight(batteryView, "BAT", batteryLevel, batWarn, batUrgent, Double.MAX_VALUE, true);
                 }
                 statuslightsLayout.setVisibility(View.VISIBLE);
             } else {
