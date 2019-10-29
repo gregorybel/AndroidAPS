@@ -1380,8 +1380,8 @@ public class OverviewFragment extends Fragment implements View.OnClickListener, 
                 NSSettingsStatus nsSettings = new NSSettingsStatus().getInstance();
                 double iageUrgent = nsSettings.getExtendedWarnValue("iage", "urgent", 96);
                 double iageWarn = nsSettings.getExtendedWarnValue("iage", "warn", 72);
-                double cageUrgent = nsSettings.getExtendedWarnValue("cage", "urgent", 48);
-                double cageWarn = nsSettings.getExtendedWarnValue("cage", "warn", 24);
+                double cageUrgent = nsSettings.getExtendedWarnValue("cage", "urgent", 44);
+                double cageWarn = nsSettings.getExtendedWarnValue("cage", "warn", 20);
                 double sageUrgent = nsSettings.getExtendedWarnValue("sage", "urgent", 166);
                 double sageWarn = nsSettings.getExtendedWarnValue("sage", "warn", 164);
                 //double pbageUrgent = nsSettings.getExtendedWarnValue("pgage", "urgent", 360);
@@ -1394,7 +1394,7 @@ public class OverviewFragment extends Fragment implements View.OnClickListener, 
                 if (cageView != null) {
                     careportalEvent = MainApp.getDbHelper().getLastCareportalEvent(CareportalEvent.SITECHANGE);
                     double canAge = careportalEvent != null ? careportalEvent.getHoursFromStart() : Double.MAX_VALUE;
-                    applyStatuslight(cageView, "CAN", canAge, cageWarn, cageUrgent, Double.MAX_VALUE, true);
+                    applyStatuslight(cageView, "CAN(" + Double.valueOf(canAge).intValue() + ")", canAge, cageWarn, cageUrgent, Double.MAX_VALUE, true);
                 }
 
                 if (iageView != null) {
@@ -1405,7 +1405,7 @@ public class OverviewFragment extends Fragment implements View.OnClickListener, 
 
                 if (reservoirView != null) {
                     double reservoirLevel = pump.isInitialized() ? pump.getReservoirLevel() : -1;
-                    applyStatuslight(reservoirView, "RES", reservoirLevel, resWarn, resUrgent, -1, false);
+                    applyStatuslight(reservoirView, "RES(" + Double.valueOf(reservoirLevel).intValue() + ")", reservoirLevel, resWarn, resUrgent, -1, false);
                 }
 
                 if (sageView != null) {
@@ -1418,7 +1418,7 @@ public class OverviewFragment extends Fragment implements View.OnClickListener, 
                     //double batteryLevel = pump.isInitialized() ? pump.getBatteryLevel() : -1;
                     careportalEvent = MainApp.getDbHelper().getLastCareportalEvent(CareportalEvent.PUMPBATTERYCHANGE);
                     double batteryLevel = careportalEvent != null ? careportalEvent.getHoursFromStart()/24.0 : Double.MAX_VALUE;
-                    applyStatuslight(batteryView, "BAT", batteryLevel, batWarn, batUrgent, Double.MAX_VALUE, true);
+                    applyStatuslight(batteryView, "BAT(" + Double.valueOf(batteryLevel).intValue() + ")", batteryLevel, batWarn, batUrgent, Double.MAX_VALUE, true);
                 }
                 statuslightsLayout.setVisibility(View.VISIBLE);
             } else {
